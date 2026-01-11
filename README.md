@@ -12,11 +12,11 @@ Demonstrate how to write a program for the **IS3715 I²C DMX Controller** using 
 
 ## Setup
 1. Flash the Arduino UNO with the provided code.  
-2. Connect the Kappa3715 to the Arduino UNO.  
+2. Connect the Kappa3715Ard to the Arduino UNO.  
 3. Attach a DMX light to validate its operation.  
 
 ## How it works
-The Arduino code reads the analog value from the potentiometer on the Kappa3715 board.  
+The Arduino code reads the analog value from the potentiometer on the Kappa3715Ard board.  
 This reading is scaled to a value from **0 to 255**, which corresponds to the valid range for a DMX channel.  
 The scaled value is then written to **IS3715 register 1**, which controls **DMX Channel 1**.  
 
