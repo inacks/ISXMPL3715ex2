@@ -1,5 +1,3 @@
-# ISXMPL3715ex2
-
 # Example: Using the IS3715 I²C DMX Controller with Arduino IDE
 
 ## Objective
